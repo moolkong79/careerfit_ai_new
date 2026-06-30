@@ -7,6 +7,8 @@ router = APIRouter()
 class AnalyzeRequest(BaseModel):
     user_skills: List[str]
     target_job: str
+    experience_years: int = 0
+    preferred_company_size: str = "무관"
 
 @router.post("/analyze", tags=["Analyze"])
 def analyze_profile(request: AnalyzeRequest):
