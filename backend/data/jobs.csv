@@ -1,0 +1,4 @@
+company,title,required_skills,preferred_skills,description,job_type,deadline
+"넥스트AI랩","AI 분석가 신입/주니어","Python, SQL, Pandas, NumPy, 머신러닝, 데이터 전처리","PyTorch, TensorFlow, Scikit-learn, 데이터 시각화, 통계 분석","서비스 로그와 사용자 데이터를 분석하고 머신러닝 기반 예측 모델을 설계합니다. 전자전기컴퓨터공학 기반의 데이터 처리 역량과 AI 모델 이해도를 활용할 수 있는 포지션입니다.","AI 분석가","2026-03-31"
+"한빛모빌리티데이터","모빌리티 AI 데이터 분석가","Python, SQL, 머신러닝, 데이터 시각화, 통계 분석","시계열 분석, 센서 데이터 분석, PyTorch, Tableau, FastAPI","차량·센서·이동 데이터를 분석하여 이상 탐지와 수요 예측 모델을 개발합니다. 센서 데이터와 AI 모델링에 관심 있는 전자전기컴퓨터공학부 학생에게 적합합니다.","AI 분석가","2026-04-15"
+"데이터브릿지솔루션","AI 기반 비즈니스 분석가","Python, SQL, Scikit-learn, 데이터 분석, 리포트 작성","딥러닝, TensorFlow, Power BI, A/B 테스트, 클라우드 활용 경험","고객 행동 데이터와 비즈니스 지표를 분석해 AI 기반 인사이트를 도출합니다. 데이터 분석 결과를 대시보드와 보고서로 정리하고 서비스 개선 방향을 제안합니다.","AI 분석가","상시채용"
