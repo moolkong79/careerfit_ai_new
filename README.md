@@ -32,9 +32,11 @@ ChromaDB RAG 검색
 Gemini LLM 답변 생성
   ↓
 AI 분석 결과 + 참고 공고 sources 반환
+```
 
+```text
 
-진행 현황
+##진행 현황
 
 - [x] 1일차: 프로젝트 기획 및 개발 환경 세팅
 - [x] 2일차: FastAPI 서버 구축 및 Gemini API 연결
@@ -105,7 +107,7 @@ AI 분석 결과 + 참고 공고 sources 반환
  - `harness/skills/design-skill.md` 작성  
  - `docs/MODEL_BENCHMARK.md` 작성  
 
-- [ ] 5일차: Docker + 포트폴리오 완성
+- [x] 5일차: Docker + 포트폴리오 완성
 - FastAPI 백엔드 Dockerfile 작성
 - `.dockerignore` 작성으로 불필요한 파일 제외
 - `requirements.txt` 최종 정리
