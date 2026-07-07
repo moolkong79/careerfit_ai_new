@@ -1,63 +1,34 @@
-# CareerFit AI Design Skill
+# design-skill.md
 
-## 목적
-CareerFit AI React UI를 취업·공모전 데이터 기반 AI 포트폴리오 코치처럼 보이게 만든다.
+# CareerFit AI React UI Design Skill
 
-## 디자인 목표
-- 신뢰감 있는 AI 코치 서비스
-- 발표 화면에서 한눈에 이해되는 구조
-- 입력, 분석 결과, 출처, 신뢰도가 분리된 화면
-- 과도하게 화려하기보다 설명 가능한 디자인
+## 1. 목적
 
-## 화면 구조
-1. Header
-   - 서비스명: CareerFit AI
-   - 한 줄 설명: 취업·공모전 데이터 기반 맞춤형 AI 포트폴리오 코치
+이 문서는 CareerFit AI의 React UI를 일관된 기준으로 만들기 위한 디자인 가이드이다.
 
-2. InputForm
-   - 전공 입력
-   - 보유 스킬 입력
-   - 관심 직무 입력
-   - 분석 버튼
+CareerFit AI는 취업·공모전 데이터 기반 포트폴리오 코치 서비스이며, 주요 사용자는 대학생이다.
 
-3. ResultCard
-   - answer
-   - matched_skills
-   - missing_skills
-   - recommended_projects
-   - confidence
+디자인 톤은 다음을 지향한다.
 
-4. SourceCard
-   - sources 목록
-   - title
-   - type
-   - matched_reason
+- 전문적이지만 딱딱하지 않음
+- 대학생이 부담 없이 사용할 수 있음
+- 취업·진로 서비스답게 신뢰감이 있음
+- 결과를 빠르게 이해할 수 있음
+- 복잡한 기능보다 명확한 입력과 결과 전달을 우선함
 
-## 색상 규칙
-- 기본 색상: blue, slate
-- 배경: 밝고 단순하게
-- 강조: matched_skills, confidence, sources
-- 경고: error 상태는 red 계열
-- low confidence는 yellow 또는 amber 계열
+---
 
-## UI 상태
-반드시 구분해야 하는 상태:
-- empty: 아직 분석 전
-- loading: 분석 요청 중
-- success: 결과 표시
-- error: 요청 실패
-- no sources: sources가 비어 있음
+## 2. 컬러 팔레트
 
-## 금지
-- sources를 숨기지 않는다.
-- confidence를 완전히 생략하지 않는다.
-- 과도한 애니메이션을 넣지 않는다.
-- 실제 없는 채용 정보처럼 보이게 꾸미지 않는다.
-- React 코드에 API Key를 넣지 않는다.
+Tailwind CSS 기본 색상 체계를 우선 사용한다.  
+별도 커스텀 컬러를 남발하지 않는다.
 
-## 발표용 기준
-발표자가 화면을 보며 다음을 설명할 수 있어야 한다.
-1. 사용자가 무엇을 입력하는가?
-2. AI가 어떤 분석 결과를 주는가?
-3. 어떤 공고 또는 데이터가 근거인가?
-4. 신뢰도가 높거나 낮은 이유는 무엇인가?
+### Primary
+
+주요 버튼, 핵심 강조, 브랜드 포인트에 사용한다.
+
+```text
+bg-blue-500
+hover:bg-blue-600
+text-blue-600
+focus:ring-blue-500
