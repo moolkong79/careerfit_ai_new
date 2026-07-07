@@ -24,3 +24,5 @@ dist/
 # 운영체제가 자동으로 만드는 파일
 .DS_Store
 Thumbs.db
+# 개인 회고 기록
+docs/RETROSPECTIVE.md

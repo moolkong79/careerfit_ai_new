@@ -1,8 +1,24 @@
-.venv
-venv
-__pycache__
+# backend/.dockerignore
+
+# 가상환경
+venv/
+.venv/
+
+# 환경변수 파일
+.env
+
+# ChromaDB 로컬 데이터
+chroma_db/
+
+# Python 캐시
+__pycache__/
 *.pyc
 *.pyo
-.env
-chroma_db
-*.db
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# 테스트/백업 파일
+*.backup.py
+*.backup.json
