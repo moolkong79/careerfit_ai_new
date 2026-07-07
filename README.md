@@ -17,6 +17,7 @@
 | 프론트엔드  | React, Vite              |
 | 실행 환경  | Docker                   |
 
+
 ## 🏗 아키텍처
 
 ```text
@@ -33,7 +34,7 @@ Gemini LLM 답변 생성
 AI 분석 결과 + 참고 공고 sources 반환
 
 
-## 진행 현황
+진행 현황
 
 - [x] 1일차: 프로젝트 기획 및 개발 환경 세팅
 - [x] 2일차: FastAPI 서버 구축 및 Gemini API 연결
@@ -105,3 +106,21 @@ AI 분석 결과 + 참고 공고 sources 반환
  - `docs/MODEL_BENCHMARK.md` 작성  
 
 - [ ] 5일차: Docker + 포트폴리오 완성
+- FastAPI 백엔드 Dockerfile 작성
+- `.dockerignore` 작성으로 불필요한 파일 제외
+- `requirements.txt` 최종 정리
+- Docker 이미지 빌드 테스트
+- Docker 컨테이너 실행 후 `/health` 응답 확인
+- `/analyze` API Docker 환경에서 호출 테스트
+- Docker Desktop / WSL 실행 환경 문제 해결
+- Render 백엔드 배포 흐름 확인
+- React 프론트엔드 Render 연결 준비
+- `VITE_API_BASE_URL` 기반 프론트엔드 API 주소 관리 구조 추가
+- `FRONTEND_ORIGINS` 기반 FastAPI CORS 설정 개선
+- 프론트엔드 Dockerfile 및 `.dockerignore` 작성
+- Render 프론트엔드 Docker 배포 문서 작성
+- README 최종화
+- CHECKLIST, EVAL_QUESTIONS, 개인 회고 문서 정리
+- GitHub 최종 커밋 및 main 브랜치 반영
+```
+
