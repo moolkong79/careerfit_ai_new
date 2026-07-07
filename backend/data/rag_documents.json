@@ -1,0 +1,44 @@
+[
+  {
+    "page_content": "회사명: 넥스트AI랩\n공고명: AI 분석가 신입/주니어\n직무유형: AI 분석가\n마감일: 2026-03-31\n",
+    "metadata": {
+      "id": "job_1",
+      "company": "넥스트AI랩",
+      "title": "AI 분석가 신입/주니어",
+      "job_type": "AI 분석가",
+      "deadline": "2026-03-31",
+      "source": "jobs.csv",
+      "deadline_month": "03",
+      "is_startup": "false",
+      "first_saved_date": "2026-07-07"
+    }
+  },
+  {
+    "page_content": "회사명: 한빛모빌리티데이터\n공고명: 모빌리티 AI 데이터 분석가\n직무유형: AI 분석가\n마감일: 2026-04-15\n",
+    "metadata": {
+      "id": "job_2",
+      "company": "한빛모빌리티데이터",
+      "title": "모빌리티 AI 데이터 분석가",
+      "job_type": "AI 분석가",
+      "deadline": "2026-04-15",
+      "source": "jobs.csv",
+      "deadline_month": "04",
+      "is_startup": "false",
+      "first_saved_date": "2026-07-07"
+    }
+  },
+  {
+    "page_content": "회사명: 데이터브릿지솔루션\n공고명: AI 기반 비즈니스 분석가\n직무유형: AI 분석가\n마감일: 상시채용\n",
+    "metadata": {
+      "id": "job_3",
+      "company": "데이터브릿지솔루션",
+      "title": "AI 기반 비즈니스 분석가",
+      "job_type": "AI 분석가",
+      "deadline": "상시채용",
+      "source": "jobs.csv",
+      "deadline_month": "",
+      "is_startup": "false",
+      "first_saved_date": "2026-07-07"
+    }
+  }
+]
