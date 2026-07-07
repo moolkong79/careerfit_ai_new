@@ -17,6 +17,21 @@
 | 프론트엔드  | React, Vite              |
 | 실행 환경  | Docker                   |
 
+## 🏗 아키텍처
+
+```text
+사용자 입력
+  ↓
+React/Vite Frontend
+  ↓
+FastAPI /analyze API
+  ↓
+ChromaDB RAG 검색
+  ↓
+Gemini LLM 답변 생성
+  ↓
+AI 분석 결과 + 참고 공고 sources 반환
+
 
 ## 진행 현황
 
